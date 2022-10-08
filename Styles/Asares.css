@@ -2,11 +2,13 @@
 
   .banner-principal{
     position: absolute;
-    width: 100vw;
+    width: 100%;
+    min-width: 1300px;
     top: 56px;
     right: 0px;
     left: 0px;
-    z-index: 0;           
+    z-index: 0;   
+        
     }
     
       
