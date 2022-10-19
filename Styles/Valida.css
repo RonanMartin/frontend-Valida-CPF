@@ -41,19 +41,24 @@
   .cpf{
     margin-right: 5px;
     margin-top: 23px;
-    background-color: white;
-  }
-
-  .cpfOk{
-    margin-right: 5px;
-    margin-top: 23px;
+    }
+  
+  .inputCpfOk{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 16px;
+    border: 1px solid rgb(170, 170, 170); 
     background-color: rgb(131, 247, 208);;
   }
 
-  .cpfInvalido{
-    margin-right: 5px;
-    margin-top: 23px;
-    background-color: rgb(255, 122, 122);;
+  .inputCpfInvalido{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 16px;
+    border: 1px solid rgb(170, 170, 170); 
+    background-color: rgb(255, 195, 195);;
   }
 
   .input{
@@ -62,6 +67,7 @@
     font-size: 18px;
     margin-top: 16px;
     border: 1px solid rgb(170, 170, 170);    
+    background-color: white;
   }
 
   .Response{

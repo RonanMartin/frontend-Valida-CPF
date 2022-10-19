@@ -39,7 +39,8 @@
                 <div class="input-grid">
                         <div class="input-flex">
                             <p class="cpf">CPF:</p>
-                            <input type="text" class="input" maxlength = "11" id="cpf">
+                            <input type="text" class="input" autocomplete="off"
+                             maxlength = "11" id="cpf" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                             <button class="button" onclick="getCPF()">Validar</button>
                         </div>
                         <div class="Response" id="resp">
