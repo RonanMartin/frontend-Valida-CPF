@@ -41,6 +41,19 @@
   .cpf{
     margin-right: 5px;
     margin-top: 23px;
+    background-color: white;
+  }
+
+  .cpfOk{
+    margin-right: 5px;
+    margin-top: 23px;
+    background-color: rgb(131, 247, 208);;
+  }
+
+  .cpfInvalido{
+    margin-right: 5px;
+    margin-top: 23px;
+    background-color: rgb(255, 122, 122);;
   }
 
   .input{
