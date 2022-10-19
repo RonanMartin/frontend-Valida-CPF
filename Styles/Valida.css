@@ -21,18 +21,21 @@
 
   .input-grid{
     margin-top: 0px;
-    height: 70px;
-    width: 300px;
+    height: 100px;
+    width: 350px;
     border-width: 1px;
     border-style: solid;
     border-color: #60ecff;
     border-radius: 25px 0px 25px 0px;
-    padding: 0px 20px;
-
-    display: flex;
-    flex-direction: row;
+    padding: 0px 0px;    
+    display: grid;
+    grid-template-columns: 300px;
     justify-content: center;
-    
+    }
+
+  .input-flex{
+    display: flex;
+    margin-left: 5px;
   }
 
   .cpf{
@@ -45,7 +48,13 @@
     width: 150px;
     font-size: 18px;
     margin-top: 16px;
-    border: 1px solid rgb(170, 170, 170);
+    border: 1px solid rgb(170, 170, 170);    
+  }
+
+  .Response{
+    margin-bottom: 25px;
+    margin-top: 0px;
+    color:rgb(61, 61, 61)
   }
 
   .input:focus {
@@ -54,3 +63,15 @@
     box-shadow: inset 1px 2px 2px 
     rgba(0, 0, 0, 0.1);
   }
+
+  .button {
+    height: 34px;
+    margin-top: 16px;
+    margin-left: 10px;
+    border-color: #60ecff; 
+    background-color: rgb(197, 237, 255);
+    color: #004d95;
+    font-size: 15px;
+  }
+
+  

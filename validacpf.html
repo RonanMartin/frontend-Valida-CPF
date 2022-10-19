@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <script src="javascript/valida.js"> </script>
     <div class="header">
       
       <div class="left-section">
@@ -33,11 +34,18 @@
         <h1  class="texto1">Valida CPF</h1>
       </div>
       <div class="Frase3">
-        <p>Digite seu CPF no campo abaixo que nosso sistema irá verificar se é um CPF valido.</p>
+        <p>Digite seu CPF no campo abaixo que nosso sistema irá verificar se é um CPF válido.</p>
         <div class="cpf-grid">
-          <div class="input-grid">
-          <p class="cpf">CPF:</p><input type="text" class="input">
-          </div>
+                <div class="input-grid">
+                        <div class="input-flex">
+                            <p class="cpf">CPF:</p>
+                            <input type="text" class="input" maxlength = "11" id="cpf">
+                            <button class="button" onclick="getCPF()">Validar</button>
+                        </div>
+                        <div class="Response" id="resp">
+                            <div >Digite apenas números!</div>                            
+                        </div>              
+                </div>
         </div>
         <p>Neste momento não consultaremos a Receita Federal, mas já é um primeiro passo!</p>
       </div>
