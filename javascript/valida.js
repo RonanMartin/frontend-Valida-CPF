@@ -2,7 +2,6 @@
               // MODEL - SECTION
 
               
-
                 function validaCPF (cpf){
                   var API_URL = "http://localhost:8080/valida-cpf?numero=" + cpf
                   
