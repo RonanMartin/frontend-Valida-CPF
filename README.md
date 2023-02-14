@@ -1,6 +1,6 @@
 # Valida CPF Frontend
 
-### This page connects with the Valida CPF Backend. It is a simulation of a microservice client, developed for study purposes.
+This page connects with the Valida CPF Backend. It is a simulation of a microservice client, developed for study purposes.
 
 ## **Why did I?**
 
